@@ -1,0 +1,147 @@
+body {
+    font-family: "Lucida Grande", 
+    "Lucida Sans Unicode", Arial, 
+    Helvetica, Verdana, sans-serif;
+}
+
+.container {
+    width: 800px;
+    display:block;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 200px;
+    min-height: 100px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.quote {
+    border-left: 5px solid #059fff;
+    padding: 5px 12px;
+}
+
+li {
+    background-image: url("/img/t_bullet.png");
+    background-repeat: no-repeat;
+    /*background-position-x: 0px 0px;*/
+    background-size: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    /*margin-top: -5px;*/
+    background-position-y: 7px;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+hr {
+    border: 0px;
+    border-top: 3px solid gray;
+}
+
+.menu a {
+    display: block;
+    color: #059fff;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: black;
+    border-left: 5px solid #059fff;
+    padding-left: 5px;
+}
+
+.img {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    width: 200px;
+    min-height: 100px;
+}
+
+.img img {
+    border-radius: 10px;
+}
+
+/* Таблцы, урок 4 */ 
+.calendar {
+    width: 700px;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-spacing: 0;
+    margin-left: 50px;
+}
+
+.calendar td, th {
+    border-top: 1px solid lightgray;    
+    border-left: 1px solid lightgray;
+}
+
+.calendar thead th, .calendar tfoot td {
+    height: 40px;
+}
+
+.calendar tbody {
+    width: 100px;
+    height: 100px;
+}
+
+.september {
+    text-align: right;
+}
+
+.calendar tfoot td {
+    padding: 5px 20px;
+}
+
+.calendar tbody td { /* отцентровка текста и ширины ячейки */ 
+    width: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.calendar tbody span {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(131, 131, 131);
+} 
+
+
+/* Home work (tags wich i know)*/
+
+.tags {
+    width: 800px;
+    border-spacing: 0;
+    margin-bottom: 300px;
+    border-right: 1px solid lightgray;
+}
+
+.tags tbody td{
+    text-align: center;
+    border: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-spacing: 0;
+}
+
+.tags thead th , .tags tfoot th {
+    height: 40px;
+}
+
+.tags tfoot th {
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
